@@ -20,6 +20,8 @@ make
     cd tools
     make KALDI=<existing_kaldi_root>
     ```
+    pip install numba==0.48.0
+    
     This option make a symlink at `tools/kaldi`
 - This command extracts miniconda3 at `tools/miniconda3`, and creates conda envirionment named 'eend'
 - Then, installs Chainer and cupy into 'eend' environment
